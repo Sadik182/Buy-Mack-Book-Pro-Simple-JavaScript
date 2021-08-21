@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+/* Common CSS Style */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-right: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+.btn:hover {
+    background-color: rgb(11, 4, 19);
+    color: whitesmoke;
+}
+
+/* Style For container  */
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.image {
+    width: 40%;
+    margin-right: 30px;
+    padding: 10px;
+}
+.image img {
+    width: 80%;
+    height: 50%;
+
+}
+/* Style for table Contents */
+table {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+td {
+    padding: 8px;
+    text-align: left;  
+}
+.border {
+    border-top: 1px solid rgb(228, 222, 222);
+}
+
+.underline {
+    border-top: 2px solid black;
+}
+/* CSS For Promo Code  */
+.promo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-span {
+    color: tomato;
+    margin-right: 10px;
+    font-size: 30px;
+}
+#apply {
+    background-color:tomato;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
